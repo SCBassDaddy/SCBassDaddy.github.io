@@ -140,3 +140,14 @@ input::-webkit-inner-spin-button {
     font-size: 20px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #victory-clue {
+    font-size: 35px;
+  }
+
+  #return {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}

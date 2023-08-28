@@ -43,6 +43,10 @@
   right: 20%;
 }
 
+#c11-response {
+  line-height: 0.5;
+}
+
 @media only screen and (screen-width: 600px) {
   #stormButton1 {
     left: 10%;
