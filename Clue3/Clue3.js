@@ -25,8 +25,8 @@ let checkSvar = () => {
       document.getElementById("victory-clue").style.display = "block";
       getNewText()
     } else if ((document.getElementById("answer").value.toLowerCase().includes("mc2") || document.getElementById("answer").value.toLowerCase().includes("relativity"))) {
-      expression = "NERD!"
-      comment = "You clearly lack, whatever made him so special";
+      document.getElementById("nerd-text-h1").style.display = "block";
+      document.getElementById("nerd-text-h2").style.display = "block";
       document.getElementById("answer-submit").style.borderBlockColor = "red"
       setTimeout(() => {
         document.getElementById("answer-submit").style.borderBlockColor = "gray";

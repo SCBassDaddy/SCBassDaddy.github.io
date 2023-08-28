@@ -17,6 +17,14 @@
   box-shadow: 10px 5px 25px purple;
 }
 
+#nerd-text-h1 {
+  display: none;
+}
+
+#nerd-text-h2 {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 25px;
