@@ -20,3 +20,9 @@
   padding-right: 10px;
   margin-right: -38px;
 }
+
+@media only screen and (max-width: 600px) {
+  #c5-box {
+    height: 300px;
+  }
+}

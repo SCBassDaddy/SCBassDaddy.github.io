@@ -6,6 +6,7 @@
 }
 
 .c11-image-container {
+  position: relative;
   margin: 0 auto;
   height: 400px;
   width: 80%;
@@ -15,7 +16,7 @@
 .c11-image {
   height: 100%;
   width: 100%;
-  background-image: url(../img/Storm.jpg);
+  background-image: url(../img/Storm2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +30,7 @@
   background-color: rgba(53, 60, 86, 0.363);
   height: 30px;
   font-size: 15px;
-  position: relative;
+  position: absolute;
   top:0;
   box-shadow: -25px 0px 25px rgb(154, 163, 172), -5px 20px 50px rgb(133, 104, 145), -15px 0px 30px gray, 30px 0px 45px rgb(22, 95, 151);
 }
@@ -39,6 +40,16 @@
 }
 
 #stormButton2 {
-  left: 50%;
+  right: 20%;
+}
+
+@media only screen and (screen-width: 600px) {
+  #stormButton1 {
+    left: 10%;
+  }
+  
+  #stormButton2 {
+    right: 10%;
+  }
 }
 
