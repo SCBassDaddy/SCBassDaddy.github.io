@@ -1,6 +1,7 @@
 #bridge {
   height: auto;
   width: 80%;
+  max-width: 800px;
   margin: 30px auto;
   background: #1c1c1c;
   border-left: 25px dotted rgb(95, 54, 13);
