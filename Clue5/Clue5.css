@@ -11,19 +11,17 @@
 
 #c5-check {
   height: 40px;
-  width: 80px;
+  width: 58px;
   font-size: 20px;
   font-weight: 400;
   color: green;
   background-color: transparent;
   border: none;
-  padding-right: 10px;
-  margin-right: -20px;
 }
 
 @media only screen and (max-width: 800px) {
-  #c5-check {
-    margin-right: -60px;
+  #bot-comment {
+    margin-left: 0;
   }
 }
 
@@ -32,7 +30,7 @@
     height: 300px;
   }
 
-  #c5-check {
-    margin-right: -40px;
+  #bot-comment {
+    margin-left: 0;
   }
 }
