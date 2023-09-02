@@ -60,12 +60,21 @@ function checkSoduko() {
     if (parseInt(gridInputs[i].value) > 0)
     finalSum += parseInt(gridInputs[i].value);
   }
+  console.log(finalSum)
 
-  if (finalSum === 243) {
+  if (finalSum === 98 &&
+      document.getElementById("check-1").value === "2" &&
+      document.getElementById("check-2").value === "9" &&
+      document.getElementById("check-3").value === "7") {
     let clue13 = document.getElementsByClassName("clue-13");
     for (let i = 0; i < clue13.length; i++) {
       clue13[i].style.display = "block";
     }
+  } else {
+    document.getElementById("check-submit").style.backgroundColor = "red"
+      setTimeout(() => {
+        document.getElementById("check-submit").style.backgroundColor = "";
+        }, 1000);
   }
 }
 

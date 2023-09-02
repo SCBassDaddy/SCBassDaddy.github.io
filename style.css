@@ -47,6 +47,12 @@ p {
   font-family: "Tektur";
 }
 
+#bot-comment {
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
 a {
   color: green;
   text-decoration: none;
@@ -139,6 +145,7 @@ input::-webkit-inner-spin-button {
   h2 {
     font-size: 20px;
   }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -149,5 +156,9 @@ input::-webkit-inner-spin-button {
   #return {
     font-size: 30px;
     margin-top: 20px;
+  }
+
+  #bot-comment {
+    margin: auto 20px;
   }
 }
