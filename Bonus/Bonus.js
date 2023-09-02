@@ -14,7 +14,7 @@ getNewText();
 document.getElementById("answer-submit").onclick = function() {checkSvar()}
 
 let checkSvar = () => {
-  if (document.getElementById("answer").value.toLowerCase() === answer) {
+  if (document.getElementById("answer").value.toLowerCase().includes(answer)) {
       document.getElementById("game-wrapper").style.display = "none";
       title = "Of course...";
       expression = "It could only be him..."

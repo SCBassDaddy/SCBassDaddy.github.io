@@ -13,7 +13,7 @@ getNewText();
 document.getElementById("answer-submit").onclick = function() {checkSvar()}
 
 let checkSvar = () => {
-  if (document.getElementById("answer").value.toLowerCase() === answer) {
+  if (document.getElementById("answer").value.toLowerCase().includes(answer)) {
       document.getElementById("game-wrapper").style.display = "none";
       document.getElementById("main-answer-box").style.display = "none";
       document.getElementById("clues-wrapper").style.display = "none";
