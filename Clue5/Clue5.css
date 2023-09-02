@@ -18,11 +18,21 @@
   background-color: transparent;
   border: none;
   padding-right: 10px;
-  margin-right: -38px;
+  margin-right: -20px;
+}
+
+@media only screen and (max-width: 800px) {
+  #c5-check {
+    margin-right: -60px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   #c5-box {
     height: 300px;
+  }
+
+  #c5-check {
+    margin-right: -40px;
   }
 }
