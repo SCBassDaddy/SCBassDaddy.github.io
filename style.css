@@ -42,7 +42,7 @@ h2 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   margin: auto 20px;
   font-family: "Tektur";
 }
@@ -148,6 +148,10 @@ input::-webkit-inner-spin-button {
 
   #bot-comment {
     margin: auto 40px;
+  }
+
+  p {
+    font-size: 20px
   }
 
 }
