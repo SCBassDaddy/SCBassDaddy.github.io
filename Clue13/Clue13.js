@@ -60,7 +60,6 @@ function checkSoduko() {
     if (parseInt(gridInputs[i].value) > 0)
     finalSum += parseInt(gridInputs[i].value);
   }
-  console.log(finalSum)
 
   if (finalSum === 98 &&
       document.getElementById("check-1").value === "2" &&
@@ -69,6 +68,14 @@ function checkSoduko() {
     let clue13 = document.getElementsByClassName("clue-13");
     for (let i = 0; i < clue13.length; i++) {
       clue13[i].style.display = "block";
+    }
+    let redCells = document.getElementsByClassName("red");
+    for (let i = 0; i < redCells.length; i++) {
+      redCells[i].style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+    }
+    let darkCells = document.getElementsByClassName("dark");
+    for (let i = 0; i < darkCells.length; i++) {
+      darkCells[i].style.color = "rgb(56, 0, 0)";
     }
   } else {
     document.getElementById("check-submit").style.backgroundColor = "red"
