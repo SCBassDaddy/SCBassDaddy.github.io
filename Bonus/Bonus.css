@@ -1,7 +1,7 @@
 .center-image-wrapper {
   height: auto;
   width: 60%;
-  max-width: 500px;
+  max-width: 300px;
   margin: 0 auto;
   padding-top: 50px;
 }
@@ -15,7 +15,7 @@
 .center-image-wrapper-credits {
   height: auto;
   width: 60%;
-  max-width: 500px;
+  max-width: 300px;
   margin: 0 auto;
 }
 

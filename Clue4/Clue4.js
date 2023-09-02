@@ -7,7 +7,7 @@ let answer = "";
 title = "Rosetta";
 expression = "A symbol matter";
 comment = "What do the symbols do?";
-answer = "uhugu";
+answer = "zhulu";
 getNewText();
 
 // Checks for correct answer in text input
