@@ -12,44 +12,44 @@ getNewText();
 // Check correct answer
 let answers = document.getElementsByClassName("quattroAnswer");
 let answer0 = 404;
-let answer1 = /fortnite/i;
-let answer2 = /forbidden/i;
+let answer1 = "fortnite";
+let answer2 = "forbidden";
 let answer3 = 42;
-let answer4 = /forbes/i;
+let answer4 = "forbes";
 
 document.getElementById("c9-check").onclick = function() {chechCorrectAnswers()};
 
 function chechCorrectAnswers() {
   let countCorrectAnswers = 0;
-  if (answers[0].value == answer0) {
+  if (answers[0].value.includes(answer0)) {
     countCorrectAnswers++;
     answers[0].style.borderColor = "green";
   } else {
     answers[0].style.borderColor = "red";
   }
   
-  if (answer1.test(answers[1].value)) {
+  if (answers[1].value.toLowerCase().includes(answer1)) {
     countCorrectAnswers++;
     answers[1].style.borderColor = "green";
   } else {
     answers[1].style.borderColor = "red";
   }
   
-  if (answer2.test(answers[2].value)) {
+  if (answers[2].value.toLowerCase().includes(answer2)) {
     countCorrectAnswers++;
     answers[2].style.borderColor = "green";
   } else {
     answers[2].style.borderColor = "red";
   }
   
-  if (answers[3].value == answer3) {
+  if (answers[3].value.includes(answer3)) {
     countCorrectAnswers++;
     answers[3].style.borderColor = "green";
   } else {
     answers[3].style.borderColor = "red";
   }
   
-  if (answer4.test(answers[4].value)) {
+  if (answers[4].value.toLowerCase().includes(answer4)) {
     countCorrectAnswers++;
     answers[4].style.borderColor = "green";
   } else {

@@ -8,7 +8,7 @@ html, body {
   min-height: 100%;
   background-color: black;
   color: green;
-  font-family: monospace;
+  font-family: monospace, sans-serif;
   display: block;
 }
 
@@ -48,7 +48,6 @@ p {
 }
 
 #bot-comment {
-  display: block;
   margin: 0 auto;
   max-width: 900px;
 }
@@ -144,6 +143,10 @@ input::-webkit-inner-spin-button {
 
   h2 {
     font-size: 20px;
+  }
+
+  #bot-comment {
+    margin: auto 40px;
   }
 
 }

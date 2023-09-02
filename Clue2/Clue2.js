@@ -72,7 +72,7 @@ function resetFirewall() {
 document.getElementById("answer-submit").onclick = function() {checkSvar()};
 
 let checkSvar = () => {
-  if (document.getElementById("answer").value.toLowerCase() === answer || document.getElementById("answer").value.toLowerCase() === answer2) {
+  if (document.getElementById("answer").value.toLowerCase().includes(answer) || document.getElementById("answer").value.toLowerCase().includes(answer2)) {
       document.getElementById("game-wrapper").style.display = "none";
       title = "Nice Work";
       expression = "The Clue is..."
