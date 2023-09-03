@@ -29,7 +29,7 @@ function resetBridgeEncounter() {
       for (let i = 0; i < checkedSteps.length; i++) {
         checkedSteps[i].checked = false;
       }
-    }, 3000);
+    }, 2000);
   }
 
 // Resets label color
@@ -39,7 +39,7 @@ function resetLabels () {
     for (let i = 0; i < labelBackReset.length; i++) {
       labelBackReset[i].style.backgroundColor = "transparent";
     }
-  }, 3000);
+  }, 2000);
 }
 
 // Checks if enough steps checked
@@ -51,47 +51,38 @@ if (stepsChecked() == 8) {
 
   if (document.getElementById("c6-yes-1").checked) {
     c6CorrectAnswers++;
-    document.getElementById("c6-win-label1").style.backgroundColor = "green";
   }
 
   if (document.getElementById("c6-yes-2").checked) {
     c6CorrectAnswers++;
-    document.getElementById("c6-win-label2").style.backgroundColor = "green";
   }
 
   if (document.getElementById("c6-yes-3").checked) {
     c6CorrectAnswers++;
-    document.getElementById("c6-win-label3").style.backgroundColor = "green";
   }
 
   if (document.getElementById("c6-yes-4").checked) {
     c6CorrectAnswers++;
-    document.getElementById("c6-win-label4").style.backgroundColor = "green";
   }
 
   if (document.getElementById("c6-yes-4").checked) {
     c6CorrectAnswers++;
-    document.getElementById("c6-win-label4").style.backgroundColor = "green";
   }
 
   if (document.getElementById("c6-yes-5").checked) {
     c6CorrectAnswers++;
-    document.getElementById("c6-win-label5").style.backgroundColor = "green";
   }
 
   if (document.getElementById("c6-yes-6").checked) {
     c6CorrectAnswers++;
-    document.getElementById("c6-win-label6").style.backgroundColor = "green";
   }
 
   if (document.getElementById("c6-yes-7").checked) {
     c6CorrectAnswers++;
-    document.getElementById("c6-win-label7").style.backgroundColor = "green";
   }
 
   if (document.getElementById("c6-yes-8").checked) {
     c6CorrectAnswers++;
-    document.getElementById("c6-win-label8").style.backgroundColor = "green";
   }
 
   if (c6CorrectAnswers == 9) {
@@ -109,13 +100,13 @@ if (stepsChecked() == 8) {
     resetBridgeEncounter()
     resetLabels ()
     c6CorrectAnswers = 0
-  }
-  } else {
     document.getElementById("c6-check").style.borderColor = "red";
     setTimeout(() => {
       document.getElementById("c6-check").style.borderColor = "gray";
-    }, 1000);
+    }, 2000);
   }
+  } 
+  
 }
 
 // Updates text in console

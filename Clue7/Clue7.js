@@ -7,7 +7,7 @@ let answer = "";
 title = "The Poet";
 expression = "Who am I thinking of?";
 comment = "This is not for kids...or is it?";
-answer = "halfdan";
+answer = "halfdan rasmussen";
 getNewText();
 
 // Checks for correct answer in text input
