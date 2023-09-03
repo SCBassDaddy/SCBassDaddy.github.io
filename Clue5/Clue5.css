@@ -11,8 +11,8 @@
 
 #c5-check {
   height: 40px;
-  width: 58px;
-  font-size: 20px;
+  width: 69px;
+  font-size: 24px;
   font-weight: 400;
   color: green;
   background-color: transparent;
@@ -22,6 +22,11 @@
 @media only screen and (max-width: 800px) {
   #bot-comment {
     margin-left: 0;
+  }
+
+  #c5-check {
+    width: 58px;
+    font-size: 20px;
   }
 }
 
